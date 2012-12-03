@@ -157,7 +157,7 @@
 								<argLine>-Xmx256m</argLine>
 								<argLine>-XX:MaxPermSize=256m</argLine>
 							</configuration>
-							<!-- Usually findbugs needs a lot of memory, change these values if	needed. -->
+							<!-- Usually findbugs needs a lot of memory, change these values if needed. -->
 						</plugin>
 					</reportPlugins>
 				</configuration>
