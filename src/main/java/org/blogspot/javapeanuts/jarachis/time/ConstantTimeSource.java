@@ -11,6 +11,11 @@ public class ConstantTimeSource implements TimeSource {
 		this.time = new Date(timeMillis);
 	}
 
+	public ConstantTimeSource(Date aDate) {
+		this.time = aDate;
+		this.timeMillis = aDate.getTime();
+	}
+
 	@Override
 	public long currentTimeMillis() {
 		return timeMillis;
