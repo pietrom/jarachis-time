@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.blogspot.javapeanuts.jarachis</groupId>
 	<artifactId>jarachis-time</artifactId>
-	<version>1.0.1</version>
+	<version>1.0.2-SNAPSHOT</version>
 	<name>jarachis-time</name>
 	<description>Time-related utility Java classes, by Java  Peanuts</description>
 
