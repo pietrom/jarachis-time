@@ -8,9 +8,9 @@
     <language>en-us</language>
     <copyright>&#169;2012</copyright>
     <item>
-      <title>File: 3,
+      <title>File: 4,
              Errors: 0,
-             Warnings: 9,
+             Warnings: 0,
              Infos: 0
       </title>
             <link>https://github.com/pietrom/jarachis-time/checkstyle.html</link>
@@ -29,27 +29,13 @@
           <tbody>
                           <tr>
                 <td>
-                  <a href="https://github.com/pietrom/jarachis-time/checkstyle.html#org.blogspot.javapeanuts.jarachis.time.TimeSource.java">org/blogspot/javapeanuts/jarachis/time/TimeSource.java</a>
+                  <a href="https://github.com/pietrom/jarachis-time/checkstyle.html#com.blogspot.javapeanuts.jarachis.time.SystemTimeSource.java">com/blogspot/javapeanuts/jarachis/time/SystemTimeSource.java</a>
                 </td>
                 <td>
                   0
                 </td>
                 <td>
-                  3
-                </td>
-                <td>
                   0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="https://github.com/pietrom/jarachis-time/checkstyle.html#org.blogspot.javapeanuts.jarachis.time.ConstantTimeSource.java">org/blogspot/javapeanuts/jarachis/time/ConstantTimeSource.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  5
                 </td>
                 <td>
                   0
@@ -57,13 +43,41 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/pietrom/jarachis-time/checkstyle.html#org.blogspot.javapeanuts.jarachis.time.SystemTimeSource.java">org/blogspot/javapeanuts/jarachis/time/SystemTimeSource.java</a>
+                  <a href="https://github.com/pietrom/jarachis-time/checkstyle.html#com.blogspot.javapeanuts.jarachis.time.package-info.java">com/blogspot/javapeanuts/jarachis/time/package-info.java</a>
                 </td>
                 <td>
                   0
                 </td>
                 <td>
-                  1
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/pietrom/jarachis-time/checkstyle.html#com.blogspot.javapeanuts.jarachis.time.TimeSource.java">com/blogspot/javapeanuts/jarachis/time/TimeSource.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/pietrom/jarachis-time/checkstyle.html#com.blogspot.javapeanuts.jarachis.time.ConstantTimeSource.java">com/blogspot/javapeanuts/jarachis/time/ConstantTimeSource.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
                 </td>
                 <td>
                   0
