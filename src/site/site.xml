@@ -9,6 +9,8 @@
   </skin>
   <custom>
     <fluidoSkin>
+      <googlePlusOne />
+      <facebookLike />
       <topBarEnabled>false</topBarEnabled>
       <topBarContainerStyle>width: 90%;</topBarContainerStyle>
       <sideBarEnabled>true</sideBarEnabled>
