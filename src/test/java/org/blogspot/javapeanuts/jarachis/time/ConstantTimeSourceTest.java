@@ -7,7 +7,7 @@ import java.util.Date;
 import org.junit.Test;
 
 public class ConstantTimeSourceTest {
-	private static long TIME_IN_MILLIS = 12345L;
+	private static final long TIME_IN_MILLIS = 12345L;
 
 	@Test
 	public void returnsProvidedTimeMillis() throws Exception {
