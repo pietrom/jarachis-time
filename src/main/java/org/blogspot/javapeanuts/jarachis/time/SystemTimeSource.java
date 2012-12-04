@@ -4,12 +4,12 @@ import java.util.Date;
 
 public class SystemTimeSource implements TimeSource {
 	@Override
-	public long currentTimeMillis() {
+	public final long currentTimeMillis() {
 		return System.currentTimeMillis();
 	}
 
 	@Override
-	public Date currentTime() {
+	public final Date currentTime() {
 		return new Date();
 	}
 }

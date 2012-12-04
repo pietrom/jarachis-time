@@ -15,7 +15,7 @@ public class SystemTimeSourceTest {
 		final long after = System.currentTimeMillis();
 		assertBetween(before, after, currentTime);
 	}
-	
+
 	@Test
 	public void returnsCurrentTimeFromSystemCLock() throws Exception {
 		final long before = System.currentTimeMillis();
@@ -24,7 +24,7 @@ public class SystemTimeSourceTest {
 		final long after = System.currentTimeMillis();
 		assertBetween(before, after, currentTime.getTime());
 	}
-	
+
 	private static void assertBetween(long before, long after, long current) {
 		assertTrue(before <= current);
 		assertTrue(current <= after);

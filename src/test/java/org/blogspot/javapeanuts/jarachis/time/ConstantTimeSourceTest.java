@@ -14,14 +14,14 @@ public class ConstantTimeSourceTest {
 		final TimeSource source = new ConstantTimeSource(TIME_IN_MILLIS);
 		assertEquals(TIME_IN_MILLIS, source.currentTimeMillis());
 	}
-	
+
 	@Test
 	public void returnsDateBasedUponProvidedTimeMillis() throws Exception {
 		final TimeSource source = new ConstantTimeSource(TIME_IN_MILLIS);
 		final Date currentTime = source.currentTime();
 		assertEquals(TIME_IN_MILLIS, currentTime.getTime());
 	}
-	
+
 	@Test
 	public void canBeInitializedProvidingConstantDate() throws Exception {
 		final Date aDate = new Date();
