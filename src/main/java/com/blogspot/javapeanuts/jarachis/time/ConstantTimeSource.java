@@ -1,4 +1,4 @@
-package org.blogspot.javapeanuts.jarachis.time;
+package com.blogspot.javapeanuts.jarachis.time;
 
 import java.util.Date;
 

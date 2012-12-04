@@ -1,9 +1,8 @@
-package org.blogspot.javapeanuts.jarachis.time;
+package com.blogspot.javapeanuts.jarachis.time;
 
 import static org.junit.Assert.assertTrue;
 
 import java.util.Date;
-
 import org.junit.Test;
 
 public class SystemTimeSourceTest {
