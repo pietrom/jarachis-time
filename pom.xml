@@ -5,7 +5,7 @@
 	<artifactId>jarachis-time</artifactId>
 	<version>1.0.2-SNAPSHOT</version>
 	<name>jarachis-time</name>
-	<description>Time-related utility Java classes, by Java  Peanuts</description>
+	<description>Time-related utility Java classes</description>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

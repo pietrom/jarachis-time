@@ -1,0 +1,5 @@
+${project.name}
+
+	${project.description}, by {{{http://javapeanuts.blogspot.com}Java Peanuts}}.
+
+	<<${project.name}>> project is hosted at {{{http://github.com}GitHub}}: visit {{{https://github.com/pietrom/jarachis-time}GitHub's project's home page}}.
