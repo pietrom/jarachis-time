@@ -1,6 +1,9 @@
 <project>
   <body>
     <menu ref="reports" />
+    <menu name="resources">
+    	<item name="Downloads" href="downloads.html" />
+    </menu>
   </body>
   <skin>
     <groupId>org.apache.maven.skins</groupId>
