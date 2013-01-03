@@ -1,0 +1,24 @@
+Quickstart
+
+ In this page you can find some example of use of <<<TimeSource>>> interface and its implementations.
+ Samples are provided in form of unit test snippets.
+ 
+* Initializing <<<ConstantTimeSource>>> providing a <<<long>>> value:
+
+%{snippet|id=declare-long|file=src/test/java/com/blogspot/javapeanuts/jarachis/time/ConstantTimeSourceTest.java}
+
+%{snippet|id=init-by-long|file=src/test/java/com/blogspot/javapeanuts/jarachis/time/ConstantTimeSourceTest.java}
+ 
+* Getting currentTimeMillis from <<<ConstantTimeSource>>>:
+
+%{snippet|id=current-time-millis|file=src/test/java/com/blogspot/javapeanuts/jarachis/time/ConstantTimeSourceTest.java}
+
+* Getting currentTime from <<<ConstantTimeSource>>>:
+
+%{snippet|id=current-time|file=src/test/java/com/blogspot/javapeanuts/jarachis/time/ConstantTimeSourceTest.java}
+
+* Initializing <<<ConstantTimeSource>>> providing a <<<java.util.Date>>> instance:
+
+ Finally, you can initialize new <<<ConstantTimeSource>>> instance providing a <<<java.util.Date>>> instance:
+
+%{snippet|id=init-by-date|file=src/test/java/com/blogspot/javapeanuts/jarachis/time/ConstantTimeSourceTest.java}

@@ -2,6 +2,7 @@
   <body>
     <menu ref="reports" />
     <menu name="resources">
+    	<item name="Quickstart" href="quickstart.html" />
     	<item name="Downloads" href="downloads.html" />
     	<item name="Java Peanuts" href="http://javapeanuts.blogspot.com" />
     </menu>
