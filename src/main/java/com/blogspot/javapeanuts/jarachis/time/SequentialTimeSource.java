@@ -18,12 +18,12 @@ public class SequentialTimeSource implements TimeSource {
 	}
 
 	@Override
-	public long currentTimeMillis() {
+	public final long currentTimeMillis() {
 		return getCurrentAndIncrement();
 	}
 
 	@Override
-	public Date currentTime() {
+	public final Date currentTime() {
 		return new Date(getCurrentAndIncrement());
 	}
 
