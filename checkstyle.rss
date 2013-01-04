@@ -6,11 +6,11 @@
     <link>https://github.com/pietrom/jarachis-time</link>
     <description>jarachis-time - Checkstyle report</description>
     <language>en-us</language>
-    <copyright>&#169;2012</copyright>
+    <copyright>&#169;2013</copyright>
     <item>
-      <title>File: 4,
+      <title>File: 5,
              Errors: 0,
-             Warnings: 0,
+             Warnings: 1,
              Infos: 0
       </title>
             <link>https://github.com/pietrom/jarachis-time/checkstyle.html</link>
@@ -36,6 +36,20 @@
                 </td>
                 <td>
                   0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/pietrom/jarachis-time/checkstyle.html#com.blogspot.javapeanuts.jarachis.time.SequentialTimeSource.java">com/blogspot/javapeanuts/jarachis/time/SequentialTimeSource.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  1
                 </td>
                 <td>
                   0
