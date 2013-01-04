@@ -1,0 +1,46 @@
+<html>
+	<head></head>
+	<body>
+		<h1>Downloads</h1>
+		
+		<h2>Sources</h2>
+			
+			Sources from <em>master</em> branch can be downloaded here:
+			<ul>
+				<li><a href="https://github.com/pietrom/jarachis-time/archive/master.tar.gz">tar.gz</a></li>
+				<li><a href="https://github.com/pietrom/jarachis-time/archive/master.zip">zip</a></li>
+			</ul>
+				
+			Sources for tagged versions can be downloaded at
+			
+				<a href="https://github.com/pietrom/jarachis-time/tags">GitHub's tags page</a>
+				
+		<h2>Binaries</h2>
+		
+			Binaries' and Javadoc's artifacts can be obtained through <a href="http://maven.apache.org">Maven</a> using The Clean Coder's custom repository:
+			
+<pre>
+	&lt;repository&gt;
+		&lt;id&gt;thecleancoder&lt;/id&gt;
+		&lt;url&gt;https://raw.github.com/thecleancoder/mavenrepo/master&lt;/url&gt;
+		&lt;snapshots&gt;
+			 &lt;enabled&gt;true&lt;/enabled&gt;
+		&lt;/snapshots&gt;
+	&lt;/repository&gt;
+</pre>
+			
+			Your <code>pom.xml</code>code> should be configured as follows:
+			
+<pre>
+	&lt;dependency&gt;
+		&lt;groupId&gt;${project.groupId}&lt;/groupId&gt;
+		&lt;artifactId&gt;${project.artifactId}&lt;/artifactId&gt;
+		&lt;version&gt;${project.version}&lt;/version&gt;
+	&lt;/dependency&gt;
+</pre>		
+		
+		<h2>Old Releases' binaries</h2>
+		
+			Old releases (1.0.0 and 1.0.1) artifacts can be downloaded from <a href="https://github.com/pietrom/jarachis-time/downloads">downloads page</a> at <a href="http://github.com">GitHub</a>.
+	</body>
+</html>
