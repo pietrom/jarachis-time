@@ -17,5 +17,11 @@ public class DateUtils {
 		cal.set(Calendar.MILLISECOND, millis);
 		return cal.getTime();
 	}
+	
+	public static Date createDate(int year, int month, int day, int hour, int minuts,
+			int seconds) {
+		Calendar cal = new GregorianCalendar(year, month, day, hour, minuts, seconds);
+		return cal.getTime();
+	}
 
 }

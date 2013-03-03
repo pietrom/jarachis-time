@@ -15,6 +15,7 @@ public class DateUtilsTest {
 	private static final int DAY = 19;
 	private static final DateFormat DATE_FORMATTER = new SimpleDateFormat("dd/MM/yyyy");
 	private static final DateFormat DATETIME_FORMATTER = new SimpleDateFormat("dd-MM-yy HH:mm:ss S");
+	private static final DateFormat DATETIME_NO_MS_FORMATTER = new SimpleDateFormat("dd-MM-yy HH:mm:ss");
 
 	@Test
 	public void createDateGivenYearMonthAndDay() throws Exception {
@@ -26,5 +27,11 @@ public class DateUtilsTest {
 	public void createDateGivenYearMonthDayhourMinutsSecondAndMillis() throws Exception {
 		Date date = DateUtils.createDate(YEAR, MONTH, DAY, 1, 2, 3, 4);
 		assertEquals("19-03-78 01:02:03 4", DATETIME_FORMATTER.format(date));
+	}
+	
+	@Test
+	public void createDateGivenYearMonthDayhourMinutsAndSecond() throws Exception {
+		Date date = DateUtils.createDate(YEAR, MONTH, DAY, 1, 2, 3);
+		assertEquals("19-03-78 01:02:03", DATETIME_NO_MS_FORMATTER.format(date));
 	}
 }
